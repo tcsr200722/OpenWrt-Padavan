@@ -17,9 +17,9 @@ git clone https://github.com/Beginner-Go/luci-app-koolproxyR.git package/luci-ap
 add luci-app-adbyby-plus
 git clone https://github.com/tcsr200722/app-adbyby.git package/luci-app-adbyby-plus
 add luci-app-ledeproxy
-git clone https://github.com/tcsr200722/luci-app-ledeproxy-2.git package/luci-app-ledeproxy
+git clone https://github.com/project-lede/luci-app-godproxy.git package/luci-app-godproxy
 add luci-app-filebrowser
-git clone https://github.com/tcsr200722/luci-app-filebrowser.git package/luci-app-filebrowser
+git clone https://github.com/tcsr200722/luci-app-filebrowser-1.git package/luci-app-filebrowser
 add luci-app-dockerman
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 #git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
@@ -27,6 +27,8 @@ add luci-app-argon-config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 add openwrt-upx
 git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
+add luci-app-dnsfilter
+git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 add luci-app-jd-dailybonus
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 add luci-app-diskman
