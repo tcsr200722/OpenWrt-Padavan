@@ -19,7 +19,7 @@ git clone https://github.com/tcsr200722/app-adbyby.git package/luci-app-adbyby-p
 add luci-app-godproxy
 git clone https://github.com/project-lede/luci-app-godproxy.git package/luci-app-godproxy
 add luci-app-filebrowser
-git clone https://github.com/tcsr200722/luci-app-filebrowser-1.git package/luci-app-filebrowser
+git clone https://github.com/xiaozhuai/luci-app-filebrowser.git package/luci-app-filebrowser
 add luci-app-dockerman
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 #git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
