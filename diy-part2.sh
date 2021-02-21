@@ -36,5 +36,9 @@ mkdir -p package/luci-app-diskman && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
 mkdir -p package/parted && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
+add luci-app-advanced
+git clone https://github.com/tcsr200722/luci-app-advanced.git package/luci-app-advanced
+add luci-app-NetSpeedTest
+git clone https://github.com/tcsr200722/netspeedtest.git package/luci-app-NetSpeedTest
 ./scripts/feeds update -a
 ./scripts/feeds install -a
